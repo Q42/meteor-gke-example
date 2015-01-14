@@ -1,5 +1,5 @@
 <head>
-  <title>Kubernetes Example</title>
+  <title>Kubernetes Example (update test2)</title>
   <link href="http://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,medium" rel="stylesheet" type="text/css">
 </head>
 
@@ -10,12 +10,11 @@
 <template name="address">
   <div id="body" style="background-image: {{color}}">
     <h1>{{ip}}</h1>
-    <!--
-    <ul>
-    {{#each ips}}
-      <li><h1>{{ifname}}: {{address}}</h1></li>
-    {{/each}}
-    </ul>
-    -->
+
+    <div id="users">
+      {{#each user}}
+      <div class="user" style="transform: translate({{x}}px, {{y}}px);">{{ipAddr}}</div>
+      {{/each}}
+    </div>
   </div>
 </template>
