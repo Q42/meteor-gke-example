@@ -54,9 +54,6 @@ if (Meteor.isClient) {
 }
 
 if (Meteor.isServer) {
-
-  var os = Meteor.npmRequire('os');
-  var ifaces = os.networkInterfaces();
   var ip = null;
 
   Meteor.publish(null, function() {
