@@ -6,3 +6,5 @@ This is a simple example Meteor app used with [@q42/meteor-on-gke](http://github
 It does two things: print the public IP address of the machine the app is
 running on, and offer some simple interaction with the MongoDB database to show
 there is persistent data irrespective of the machine.
+
+https://registry.hub.docker.com/u/chees/meteor-gke-example/ is set up to automatically build when the master branch of this repo changes.
